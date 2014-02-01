@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d36c7273-5bf0-4595-a06e-bcf9dd7453f3" name="Default" comment="" />
+    <list default="true" id="d36c7273-5bf0-4595-a06e-bcf9dd7453f3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ScreenSlidePagerAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ZoomOutPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main_fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/second_fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/third_fragment.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rxjava.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rxjava.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rxjava.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/HelloAndroidActivity.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/HelloAndroidActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R$id.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R$layout.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R$menu.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R$string.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R$style.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/r/com/android/test/R.java" afterPath="$PROJECT_DIR$/target/generated-sources/r/com/android/test/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/R.txt" afterPath="$PROJECT_DIR$/target/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rxjava.iml" afterPath="$PROJECT_DIR$/rxjava.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="rxjava.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +110,31 @@
       <file leaf-file-name="HelloAndroidActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.4715262" vertical-offset="0" max-vertical-offset="878">
+            <state line="43" column="43" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.2849741" vertical-offset="609" max-vertical-offset="1188">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#927#937#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="66" selection-start="246" selection-end="246" vertical-scroll-proportion="-1.862069" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenSlidePagerAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ScreenSlidePagerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="630">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,13 +149,26 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ZoomOutPageTransformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/main_fragment.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/second_fragment.xml" />
+        <option value="$PROJECT_DIR$/res/layout/third_fragment.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ScreenSlidePagerAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -182,7 +262,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -255,6 +335,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewPager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rxjava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rxjava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -274,6 +384,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rxjava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rxjava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,6 +429,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.android.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/layout" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.Unnamed">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
@@ -576,12 +712,12 @@
       <changelist id="d36c7273-5bf0-4595-a06e-bcf9dd7453f3" name="Default" comment="" />
       <created>1391251931580</created>
       <updated>1391251931580</updated>
-      <workItem from="1391251933613" duration="1451000" />
+      <workItem from="1391251933613" duration="3209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1451000" />
+    <option name="totallyTimeSpent" value="3209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="52" width="1920" height="1004" extended-state="6" />
@@ -590,18 +726,19 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -634,13 +771,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="43" selection-start="95" selection-end="95" vertical-scroll-proportion="0.09326425" vertical-offset="0" max-vertical-offset="579">
@@ -650,16 +780,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="251" selection-end="251" vertical-scroll-proportion="0.4715262" vertical-offset="0" max-vertical-offset="878">
+        <state line="3" column="2" selection-start="40" selection-end="40" vertical-scroll-proportion="0.09326425" vertical-offset="0" max-vertical-offset="594">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.4715262" vertical-offset="0" max-vertical-offset="878">
+        <state line="6" column="28" selection-start="393" selection-end="393" vertical-scroll-proportion="0.19081272" vertical-offset="0" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ZoomOutPageTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="319" selection-end="319" vertical-scroll-proportion="0.34196892" vertical-offset="0" max-vertical-offset="954">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="249" selection-end="249" vertical-scroll-proportion="0.21761657" vertical-offset="0" max-vertical-offset="579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/second_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="64" selection-start="177" selection-end="177" vertical-scroll-proportion="-1.862069" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="39" selection-end="904" vertical-scroll-proportion="-0.62068963" vertical-offset="0" max-vertical-offset="450">
+          <folding>
+            <element signature="e#360#393#0" expanded="true" />
+            <element signature="e#428#463#0" expanded="true" />
+            <element signature="e#499#534#0" expanded="true" />
+            <element signature="e#568#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/third_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="70" selection-start="536" selection-end="536" vertical-scroll-proportion="0.29454544" vertical-offset="0" max-vertical-offset="550">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="81" selection-start="483" selection-end="483" vertical-scroll-proportion="0.34196892" vertical-offset="0" max-vertical-offset="579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="82" selection-start="485" selection-end="485" vertical-scroll-proportion="0.34196892" vertical-offset="0" max-vertical-offset="579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="80" selection-start="484" selection-end="484" vertical-scroll-proportion="0.46632123" vertical-offset="0" max-vertical-offset="579">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ScreenSlidePagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="630">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="66" selection-start="246" selection-end="246" vertical-scroll-proportion="-1.862069" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="43" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.2849741" vertical-offset="609" max-vertical-offset="1188">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#927#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
