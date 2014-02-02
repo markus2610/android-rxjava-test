@@ -6,4 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <string name="insert_criteria">Insert a city</string>
+    <string name="find_near_locations">Find near locations</string>
+
 </resources>

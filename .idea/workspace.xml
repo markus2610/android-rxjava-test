@@ -2,7 +2,9 @@
 <project version="4">
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
-      <GlobalState />
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
     </option>
   </component>
   <component name="AndroidLayouts">
@@ -12,37 +14,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d36c7273-5bf0-4595-a06e-bcf9dd7453f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ScreenSlidePagerAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ZoomOutPageTransformer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main_fragment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/second_fragment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/third_fragment.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rxjava.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rxjava.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rxjava.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/HelloAndroidActivity.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/HelloAndroidActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R$id.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R$layout.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R$menu.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R$string.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R$style.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/android/test/R.class" afterPath="$PROJECT_DIR$/target/classes/com/android/test/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Category.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Contact.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/HereNow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Icon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Location.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Meta.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Response.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Respuesta.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Specials.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Stats.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Venue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/VenuePage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ScreenSlidePagerAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ScreenSlidePagerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ZoomOutPageTransformer.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ZoomOutPageTransformer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes.dex" afterPath="$PROJECT_DIR$/target/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rxjava.ap_" afterPath="$PROJECT_DIR$/target/rxjava.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rxjava.apk" afterPath="$PROJECT_DIR$/target/rxjava.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rxjava.jar" afterPath="$PROJECT_DIR$/target/rxjava.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/r/com/android/test/R.java" afterPath="$PROJECT_DIR$/target/generated-sources/r/com/android/test/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/R.txt" afterPath="$PROJECT_DIR$/target/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main_fragment.xml" afterPath="$PROJECT_DIR$/res/layout/main_fragment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rxjava.iml" afterPath="$PROJECT_DIR$/rxjava.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rxjava.iws" />
@@ -107,23 +110,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloAndroidActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="43" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.2849741" vertical-offset="609" max-vertical-offset="1188">
+            <state line="19" column="39" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="1134">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#927#937#0" expanded="true" />
+                <element signature="e#1050#1060#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <file leaf-file-name="InitialFragment.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="66" selection-start="246" selection-end="246" vertical-scroll-proportion="-1.862069" vertical-offset="0" max-vertical-offset="306">
+            <state line="45" column="25" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.71240103" vertical-offset="540" max-vertical-offset="1008">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1081#1265#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1315#1569#0" expanded="true" />
+                <element signature="e#1558#1559#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="102" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="666">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_fragment.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main_fragment.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="66" selection-start="909" selection-end="909" vertical-scroll-proportion="-11.172414" vertical-offset="0" max-vertical-offset="648">
+              <folding>
+                <element signature="e#360#393#0" expanded="true" />
+                <element signature="e#428#463#0" expanded="true" />
+                <element signature="e#499#534#0" expanded="true" />
+                <element signature="e#568#601#0" expanded="true" />
+                <element signature="e#817#842#0" expanded="true" />
+                <element signature="e#1266#1295#0" expanded="true" />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -131,13 +164,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScreenSlidePagerAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ScreenSlidePagerAdapter.java">
+      <file leaf-file-name="IFourSquareClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="630">
+            <state line="13" column="72" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FourSquareRestClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="111" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenSlidePagerAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ScreenSlidePagerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="558">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,20 +206,25 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ZoomOutPageTransformer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java" />
-        <option value="$PROJECT_DIR$/res/layout/main_fragment.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/second_fragment.xml" />
         <option value="$PROJECT_DIR$/res/layout/third_fragment.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ScreenSlidePagerAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/commands/obtainNearLocationsCommand.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main_fragment.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java" />
       </list>
     </option>
   </component>
@@ -281,6 +337,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,7 +408,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ViewPager" />
+              <option name="myItemId" value="restclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rxjava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rxjava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,7 +495,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,6 +515,9 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -436,6 +525,9 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/android/test/domain" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Unnamed">
@@ -712,45 +804,47 @@
       <changelist id="d36c7273-5bf0-4595-a06e-bcf9dd7453f3" name="Default" comment="" />
       <created>1391251931580</created>
       <updated>1391251931580</updated>
-      <workItem from="1391251933613" duration="3209000" />
+      <workItem from="1391251933613" duration="3895000" />
+      <workItem from="1391288024906" duration="4640000" />
+      <workItem from="1391359684981" duration="5371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3209000" />
+    <option name="totallyTimeSpent" value="13906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="52" width="1920" height="1004" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5220264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18036287" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18036287" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -771,46 +865,71 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="47" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1278">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="11" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="756">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1081#1265#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1315#1569#0" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="576">
+          <folding>
+            <element signature="e#360#393#0" expanded="true" />
+            <element signature="e#428#463#0" expanded="true" />
+            <element signature="e#499#534#0" expanded="true" />
+            <element signature="e#568#601#0" expanded="true" />
+            <element signature="e#817#842#0" expanded="true" />
+            <element signature="e#1266#1295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="43" selection-start="95" selection-end="95" vertical-scroll-proportion="0.09326425" vertical-offset="0" max-vertical-offset="579">
+        <state line="9" column="67" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="40" selection-end="40" vertical-scroll-proportion="0.09326425" vertical-offset="0" max-vertical-offset="594">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="393" selection-end="393" vertical-scroll-proportion="0.19081272" vertical-offset="0" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ZoomOutPageTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="42" selection-start="319" selection-end="319" vertical-scroll-proportion="0.34196892" vertical-offset="0" max-vertical-offset="954">
+        <state line="13" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="342">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="249" selection-end="249" vertical-scroll-proportion="0.21761657" vertical-offset="0" max-vertical-offset="579">
+        <state line="38" column="0" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="864">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/second_fragment.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="64" selection-start="177" selection-end="177" vertical-scroll-proportion="-1.862069" vertical-offset="0" max-vertical-offset="450">
+        <state line="3" column="66" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
@@ -818,15 +937,53 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_fragment.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ScreenSlidePagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="904" vertical-scroll-proportion="-0.62068963" vertical-offset="0" max-vertical-offset="450">
+        <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="41" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1188">
           <folding>
-            <element signature="e#360#393#0" expanded="true" />
-            <element signature="e#428#463#0" expanded="true" />
-            <element signature="e#499#534#0" expanded="true" />
-            <element signature="e#568#601#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="66" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ScreenSlidePagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="40" selection-end="40" vertical-scroll-proportion="0.09326425" vertical-offset="0" max-vertical-offset="594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ZoomOutPageTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="319" selection-end="319" vertical-scroll-proportion="0.34196892" vertical-offset="0" max-vertical-offset="954" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/second_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="64" selection-start="177" selection-end="177" vertical-scroll-proportion="-1.862069" vertical-offset="0" max-vertical-offset="450">
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -843,41 +1000,49 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="81" selection-start="483" selection-end="483" vertical-scroll-proportion="0.34196892" vertical-offset="0" max-vertical-offset="579">
+        <state line="9" column="98" selection-start="618" selection-end="618" vertical-scroll-proportion="0.30623817" vertical-offset="0" max-vertical-offset="529" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/domain/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="223" selection-end="223" vertical-scroll-proportion="0.19494584" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="82" selection-start="485" selection-end="485" vertical-scroll-proportion="0.34196892" vertical-offset="0" max-vertical-offset="579">
+        <state line="9" column="67" selection-start="376" selection-end="376" vertical-scroll-proportion="0.29241878" vertical-offset="0" max-vertical-offset="554">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/domain/Venue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="80" selection-start="484" selection-end="484" vertical-scroll-proportion="0.46632123" vertical-offset="0" max-vertical-offset="579">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="9" column="13" selection-start="223" selection-end="223" vertical-scroll-proportion="-1.7357513" vertical-offset="1113" max-vertical-offset="1692">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ScreenSlidePagerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="630">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="17" column="20" selection-start="716" selection-end="716" vertical-scroll-proportion="0.24784854" vertical-offset="162" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="66" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="66" selection-start="246" selection-end="246" vertical-scroll-proportion="-1.862069" vertical-offset="0" max-vertical-offset="306">
+        <state line="3" column="66" selection-start="246" selection-end="246" vertical-scroll-proportion="0.144" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
@@ -885,12 +1050,78 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/main_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="43" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.2849741" vertical-offset="609" max-vertical-offset="1188">
+        <state line="18" column="66" selection-start="909" selection-end="909" vertical-scroll-proportion="-11.172414" vertical-offset="0" max-vertical-offset="648">
+          <folding>
+            <element signature="e#360#393#0" expanded="true" />
+            <element signature="e#428#463#0" expanded="true" />
+            <element signature="e#499#534#0" expanded="true" />
+            <element signature="e#568#601#0" expanded="true" />
+            <element signature="e#817#842#0" expanded="true" />
+            <element signature="e#1266#1295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ScreenSlidePagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="72" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#927#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="111" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="8" selection-start="631" selection-end="631" vertical-scroll-proportion="0.66754615" vertical-offset="71" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="102" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="39" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="1134">
+          <folding>
+            <element signature="e#1050#1060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="25" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.71240103" vertical-offset="540" max-vertical-offset="1008">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1081#1265#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1315#1569#0" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
           </folding>
         </state>
       </provider>

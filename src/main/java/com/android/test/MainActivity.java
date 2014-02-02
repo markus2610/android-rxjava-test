@@ -6,11 +6,15 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
-import com.android.test.ViewPager.ScreenSlidePagerAdapter;
-import com.android.test.ViewPager.ZoomOutPageTransformer;
+import com.android.test.viewpager.ScreenSlidePagerAdapter;
+import com.android.test.viewpager.ZoomOutPageTransformer;
 import java.util.LinkedList;
 
-public class HelloAndroidActivity extends FragmentActivity {
+/**
+ * MainActivity
+ * The 3 fragment pages are always loaded so they can react to changes on the observable list of locations
+ */
+public class MainActivity extends FragmentActivity {
 
     private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
@@ -34,6 +38,7 @@ public class HelloAndroidActivity extends FragmentActivity {
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager(), fragments);
         mPager.setAdapter(mPagerAdapter);
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
+        mPager.setOffscreenPageLimit(1);
     }
 
     /**

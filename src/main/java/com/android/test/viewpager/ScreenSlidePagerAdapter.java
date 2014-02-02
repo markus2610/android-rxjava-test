@@ -1,4 +1,4 @@
-package com.android.test.ViewPager;
+package com.android.test.viewpager;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
