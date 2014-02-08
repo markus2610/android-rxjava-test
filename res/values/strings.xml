@@ -9,4 +9,9 @@
     <string name="insert_criteria">Insert a city</string>
     <string name="find_near_locations">Find near locations</string>
 
+    <string name="enable_gps_dialog_title">Enable GPS</string>
+    <string name="enable_gps_dialog_message">You should enable GPS for a better user experience</string>
+    <string name="config">Configure GPS</string>
+    <string name="cancel">Cancel</string>
+
 </resources>

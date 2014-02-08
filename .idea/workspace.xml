@@ -12,37 +12,26 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d36c7273-5bf0-4595-a06e-bcf9dd7453f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Category.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/HereNow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Icon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Location.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Meta.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Response.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Respuesta.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Specials.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Stats.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/Venue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/domain/VenuePage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ScreenSlidePagerAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ScreenSlidePagerAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ZoomOutPageTransformer.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ZoomOutPageTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/utils/LocationUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/layout/main_fragment.xml" afterPath="$PROJECT_DIR$/res/layout/initial_fragment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes.dex" afterPath="$PROJECT_DIR$/target/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rxjava.ap_" afterPath="$PROJECT_DIR$/target/rxjava.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rxjava.apk" afterPath="$PROJECT_DIR$/target/rxjava.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rxjava.jar" afterPath="$PROJECT_DIR$/target/rxjava.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/r/com/android/test/R.java" afterPath="$PROJECT_DIR$/target/generated-sources/r/com/android/test/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/R.txt" afterPath="$PROJECT_DIR$/target/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main_fragment.xml" afterPath="$PROJECT_DIR$/res/layout/main_fragment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rxjava.iml" afterPath="$PROJECT_DIR$/rxjava.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
@@ -110,27 +99,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="1134">
+            <state line="49" column="34" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.46488294" vertical-offset="555" max-vertical-offset="2550">
               <folding>
-                <element signature="e#1050#1060#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InitialFragment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LocationManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.1.1.4/android-4.1.1.4-sources.jar!/android/location/LocationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="0" selection-start="5542" selection-end="5542" vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="901">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instrumentation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.1.1.4/android-4.1.1.4-sources.jar!/android/app/Instrumentation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="0" selection-start="8495" selection-end="8495" vertical-scroll-proportion="0.0" vertical-offset="1118" max-vertical-offset="1496">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitialFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="25" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.71240103" vertical-offset="540" max-vertical-offset="1008">
+            <state line="53" column="43" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="1054">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1081#1265#0" expanded="true" />
-                <element signature="e#1254#1255#0" expanded="true" />
-                <element signature="e#1315#1569#0" expanded="true" />
-                <element signature="e#1558#1559#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,55 +142,16 @@
       <file leaf-file-name="SecondFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="102" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="666">
+            <state line="50" column="53" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_fragment.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main_fragment.xml">
+      <file leaf-file-name="ThirdFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="66" selection-start="909" selection-end="909" vertical-scroll-proportion="-11.172414" vertical-offset="0" max-vertical-offset="648">
-              <folding>
-                <element signature="e#360#393#0" expanded="true" />
-                <element signature="e#428#463#0" expanded="true" />
-                <element signature="e#499#534#0" expanded="true" />
-                <element signature="e#568#601#0" expanded="true" />
-                <element signature="e#817#842#0" expanded="true" />
-                <element signature="e#1266#1295#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IFourSquareClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="72" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FourSquareRestClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="111" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="900">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScreenSlidePagerAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ScreenSlidePagerAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="558">
+            <state line="50" column="53" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -203,6 +167,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -213,18 +180,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/android/test/ViewPager/ScreenSlidePagerAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/android/test/HelloAndroidActivity.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/android/test/commands/obtainNearLocationsCommand.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/main_fragment.xml" />
+        <option value="$PROJECT_DIR$/res/layout/initial_fragment.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/utils/LocationUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -337,6 +306,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -408,7 +378,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="restclient" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,7 +408,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="restclient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,7 +464,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,7 +479,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -518,6 +487,7 @@
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -530,7 +500,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/android/test/domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.Unnamed">
+  <component name="RunManager" selected="Android Application.rxjava">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -764,7 +734,7 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="false" name="rxjava" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="rxjava" />
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
@@ -791,7 +761,7 @@
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android Application.Unnamed" />
+      <item index="0" class="java.lang.String" itemvalue="Android Application.rxjava" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -807,11 +777,13 @@
       <workItem from="1391251933613" duration="3895000" />
       <workItem from="1391288024906" duration="4640000" />
       <workItem from="1391359684981" duration="5371000" />
+      <workItem from="1391864732667" duration="100000" />
+      <workItem from="1391865019132" duration="4466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13906000" />
+    <option name="totallyTimeSpent" value="18472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="52" width="1920" height="1004" extended-state="6" />
@@ -833,13 +805,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5220264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30837005" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18036287" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16275346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -849,7 +821,7 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -867,9 +839,125 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="39" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1278">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="32" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1008">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="102" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/initial_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="66" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="72" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="378">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="111" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ScreenSlidePagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="39" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1278">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="25" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1008">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="102" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/initial_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="66" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="72" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="378">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="111" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ScreenSlidePagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="47" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1278">
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -879,25 +967,14 @@
         <state line="31" column="11" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="756">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1081#1265#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1315#1569#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_fragment.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/initial_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="40" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="576">
-          <folding>
-            <element signature="e#360#393#0" expanded="true" />
-            <element signature="e#428#463#0" expanded="true" />
-            <element signature="e#499#534#0" expanded="true" />
-            <element signature="e#568#601#0" expanded="true" />
-            <element signature="e#817#842#0" expanded="true" />
-            <element signature="e#1266#1295#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -948,7 +1025,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="41" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1188">
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1012,30 +1089,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="67" selection-start="376" selection-end="376" vertical-scroll-proportion="0.29241878" vertical-offset="0" max-vertical-offset="554">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/domain/Venue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="223" selection-end="223" vertical-scroll-proportion="-1.7357513" vertical-offset="1113" max-vertical-offset="1692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="716" selection-end="716" vertical-scroll-proportion="0.24784854" vertical-offset="162" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="66" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
           <folding />
         </state>
       </provider>
@@ -1050,17 +1106,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_fragment.xml">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="66" selection-start="909" selection-end="909" vertical-scroll-proportion="-11.172414" vertical-offset="0" max-vertical-offset="648">
+        <state line="14" column="32" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/utils/LocationUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="50" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
           <folding>
-            <element signature="e#360#393#0" expanded="true" />
-            <element signature="e#428#463#0" expanded="true" />
-            <element signature="e#499#534#0" expanded="true" />
-            <element signature="e#568#601#0" expanded="true" />
-            <element signature="e#817#842#0" expanded="true" />
-            <element signature="e#1266#1295#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#671#718#0" expanded="true" />
+            <element signature="e#776#825#0" expanded="true" />
+            <element signature="e#900#930#0" expanded="true" />
+            <element signature="e#932#1235#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1272#1302#0" expanded="true" />
+            <element signature="e#1304#1498#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/initial_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.1401649" vertical-offset="0" max-vertical-offset="849">
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1069,14 +1142,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/viewpager/ScreenSlidePagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="630">
+        <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.1548975" vertical-offset="0" max-vertical-offset="878">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/domain/Respuesta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.11617312" vertical-offset="0" max-vertical-offset="878">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/IFourSquareClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="72" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+        <state line="1" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.019362187" vertical-offset="0" max-vertical-offset="878">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1085,43 +1165,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/restclient/FourSquareRestClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="111" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="900">
+        <state line="53" column="41" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.79384965" vertical-offset="0" max-vertical-offset="878">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="631" selection-end="631" vertical-scroll-proportion="0.66754615" vertical-offset="71" max-vertical-offset="666">
+        <state line="7" column="33" selection-start="249" selection-end="249" vertical-scroll-proportion="0.13553531" vertical-offset="0" max-vertical-offset="878">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="38" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/SecondFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="102" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="666">
+        <state line="50" column="53" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/ThirdFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="53" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="43" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="1054">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.1.1.4/android-4.1.1.4-sources.jar!/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="8495" selection-end="8495" vertical-scroll-proportion="0.0" vertical-offset="1118" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/android/4.1.1.4/android-4.1.1.4-sources.jar!/android/location/LocationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="5542" selection-end="5542" vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="1134">
-          <folding>
-            <element signature="e#1050#1060#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/test/InitialFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="25" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.71240103" vertical-offset="540" max-vertical-offset="1008">
+        <state line="49" column="34" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.46488294" vertical-offset="555" max-vertical-offset="2550">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1081#1265#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1315#1569#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,8 @@
 package com.android.test.restclient;
 
 import com.android.test.domain.Response;
+import com.android.test.domain.Respuesta;
+import com.android.test.utils.LocationUtils;
 import retrofit.Callback;
 import retrofit.RestAdapter;
 import rx.Observable;
@@ -42,13 +44,13 @@ public class FourSquareRestClient {
         return instance;
     }
 
-    public Observable<Response> searchForVenues(final String criteria) {
+    public Observable<Respuesta> searchForVenues(final String ll) {
 
         final String client_id = "XJ2SW4KCTL3RJM1MM43DGPUTCNTHYDWCNLA3RMSJQQC0WNPQ";
         final String client_secret = "UWYKKAIU0JWTWICAGHLYFZ3HU1MT4Z35IJRWGFTBVLCGPE3W";
 
         final String timeStamp = new SimpleDateFormat("yyyyMMdd").format(Calendar.getInstance().getTime());
 
-        return foursquareClient.searchForVenues(criteria, client_id, client_secret, Long.parseLong(timeStamp));
+        return foursquareClient.searchForVenues(ll, LocationUtils.SEARCH_RADIUS, client_id, client_secret, Long.parseLong(timeStamp));
     }
 }
